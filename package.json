@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
-    "start:server": "cd backend && node server.js",
+    "start:server": "cd server && node index.js",
     "start:client": "webpack-dev-server --open"
   },
   "keywords": [],
