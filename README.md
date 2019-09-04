@@ -2,5 +2,5 @@
 ### Installation
 ```npm install```
 
-## Usage
+### Usage
 ```npm run start```
