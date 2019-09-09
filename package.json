@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "cd server && node index.js",
-    "start:client": "webpack-dev-server --open"
+    "start:client": "webpack-dev-server --mode development --hot --open"
   },
   "keywords": [],
   "author": "Alexander Marinovich",

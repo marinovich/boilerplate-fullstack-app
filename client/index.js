@@ -2,7 +2,7 @@ import { AppContainer } from 'react-hot-loader';
 import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import App from './App';
 import configureStore, { history } from './configureStore';
 
 import './index.css';
@@ -26,6 +26,6 @@ render();
 if (module.hot) {
   // Reload components
   module.hot.accept('./App', () => {
-    render()
+    render();
   })
 }

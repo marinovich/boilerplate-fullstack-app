@@ -5,6 +5,12 @@ import { Route, Switch } from 'react-router';
 import Home from './containers/Home';
 import About from './containers/About';
 
+const NoMatch = () => (
+  <div>
+    No match
+  </div>
+);
+
 const App = ({ history }) => {
   return (
     <ConnectedRouter history={history}>
@@ -14,7 +20,7 @@ const App = ({ history }) => {
         <Route component={NoMatch} />
       </Switch>
     </ConnectedRouter>
-  )
+  );
 }
 
 export default App;

@@ -31,23 +31,25 @@ const Home = props => (
   </div>
 )
 
-const mapStateToProps = ({ counter }) => ({
-  count: counter.count,
-  isIncrementing: counter.isIncrementing,
-  isDecrementing: counter.isDecrementing
-})
+// const mapStateToProps = ({ counter }) => ({
+//   count: counter.count,
+//   isIncrementing: counter.isIncrementing,
+//   isDecrementing: counter.isDecrementing
+// })
 
-const mapDispatchToProps = dispatch =>
-  bindActionCreators(
-    {
-      increment,
-      decrement,
-      changePage: () => push('/about'),
-    },
-    dispatch,
-  )
+// const mapDispatchToProps = dispatch =>
+//   bindActionCreators(
+//     {
+//       increment,
+//       decrement,
+//       changePage: () => push('/about'),
+//     },
+//     dispatch,
+//   )
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
+  null,
+  null,
+  // mapStateToProps,
+  // mapDispatchToProps
 )(Home);
