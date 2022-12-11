@@ -23,7 +23,7 @@
     "connected-react-router": "^6.5.2",
     "cors": "^2.8.5",
     "css-loader": "^3.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.19",
     "mongoose": "^5.7.5",
